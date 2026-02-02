@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +7,12 @@
 
 <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: "Times New Roman", serif;
+        font-size: 12px;
         margin: 0;
         padding: 0;
     }
+
     /* Top Navigation Tabs */
     .tab {
         overflow: hidden;
@@ -49,8 +50,11 @@
 <!-- Tab Buttons -->
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
-  <button class="tablinks" onclick="openTab(event, 'Services')">Services</button>
+  <button class="tablinks" onclick="openTab(event, 'MercedesBenz')">Mercedes-Benz</button>
+  <button class="tablinks" onclick="openTab(event, 'ProductManagement')">Product Management</button>
+  <button class="tablinks" onclick="openTab(event, 'Innovations')">Innovations</button>
+  <button class="tablinks" onclick="openTab(event, 'PublishedArticles')">Published Articles</button>
+  <button class="tablinks" onclick="openTab(event, 'Awards')">Awards</button>
   <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
 </div>
 
@@ -60,40 +64,40 @@
   <p>Welcome to the homepage! This section contains introductory text.</p>
 </div>
 
-<div id="Mercedes-Benz" class="tabcontent">
+<div id="MercedesBenz" class="tabcontent">
   <h2>Mercedes-Benz</h2>
-  <p>This section provides information about the purpose of the website.</p>
+  <p>This section provides information about Mercedes‑Benz.</p>
 </div>
 
-<div id="Product Management" class="tabcontent">
+<div id="ProductManagement" class="tabcontent">
   <h2>Product Management</h2>
-  <p>Here you can describe the services or features you offer.</p>
+  <p>Here you can describe Product Management content.</p>
 </div>
 
 <div id="Innovations" class="tabcontent">
   <h2>Innovations</h2>
-  <p>You can include contact details or a form here.</p>
+  <p>This section discusses innovations.</p>
 </div>
 
-<div id="Published Articles" class="tabcontent">
+<div id="PublishedArticles" class="tabcontent">
   <h2>Published Articles</h2>
-  <p>You can include contact details or a form here.</p>
+  <p>List or describe your published articles here.</p>
 </div>
 
 <div id="Awards" class="tabcontent">
   <h2>Awards</h2>
-  <p>You can include contact details or a form here.</p>
+  <p>Showcase any awards earned.</p>
 </div>
 
 <div id="Contact" class="tabcontent">
   <h2>Contact</h2>
- <p>LinkedIn:
-  <a href="https://www.linkedin.com/in/neilay-khasnabish/" target="_blank">
+  <p>
+    LinkedIn:
     https://www.linkedin.com/in/neilay-khasnabish/
-  </a>
-</p>
+      https://www.linkedin.com/in/neilay-khasnabish/
+    </a>
+  </p>
 </div>
-
 
 <script>
 function openTab(evt, tabName) {
